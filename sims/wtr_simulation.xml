@@ -1,0 +1,97 @@
+<simulationConfiguration id="wtr_sim">
+	
+	<output baseDirectory="../sims/output/"
+			saveInteractionLog="true"
+			saveRelevanceJudgments="true"
+			trec_eval="false" />
+	
+    <topics>
+        <!--
+        These are the topics that each simulated user will complete
+        -->
+        <topic id="1" filename="../wtr/topics/topic.1" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="2" filename="../wtr/topics/topic.2" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="3" filename="../wtr/topics/topic.3" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="4" filename="../wtr/topics/topic.4" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="5" filename="../wtr/topics/topic.5" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="6" filename="../wtr/topics/topic.6" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="7" filename="../wtr/topics/topic.7" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="8" filename="../wtr/topics/topic.8" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="9" filename="../wtr/topics/topic.9" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="10" filename="../wtr/topics/topic.10" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="11" filename="../wtr/topics/topic.11" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="12" filename="../wtr/topics/topic.12" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="13" filename="../wtr/topics/topic.13" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="14" filename="../wtr/topics/topic.14" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="15" filename="../wtr/topics/topic.15" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="16" filename="../wtr/topics/topic.16" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="17" filename="../wtr/topics/topic.17" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="18" filename="../wtr/topics/topic.18" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="19" filename="../wtr/topics/topic.19" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="20" filename="../wtr/topics/topic.20" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="21" filename="../wtr/topics/topic.21" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="22" filename="../wtr/topics/topic.22" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="23" filename="../wtr/topics/topic.23" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="24" filename="../wtr/topics/topic.24" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="25" filename="../wtr/topics/topic.25" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="26" filename="../wtr/topics/topic.26" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="27" filename="../wtr/topics/topic.27" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="28" filename="../wtr/topics/topic.28" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="29" filename="../wtr/topics/topic.29" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="30" filename="../wtr/topics/topic.30" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="31" filename="../wtr/topics/topic.31" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="32" filename="../wtr/topics/topic.32" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="33" filename="../wtr/topics/topic.33" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="34" filename="../wtr/topics/topic.34" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="35" filename="../wtr/topics/topic.35" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="36" filename="../wtr/topics/topic.36" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="37" filename="../wtr/topics/topic.37" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="38" filename="../wtr/topics/topic.38" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="39" filename="../wtr/topics/topic.39" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="40" filename="../wtr/topics/topic.40" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="41" filename="../wtr/topics/topic.41" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="42" filename="../wtr/topics/topic.42" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="43" filename="../wtr/topics/topic.43" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="44" filename="../wtr/topics/topic.44" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="45" filename="../wtr/topics/topic.45" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="46" filename="../wtr/topics/topic.46" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="47" filename="../wtr/topics/topic.47" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="48" filename="../wtr/topics/topic.48" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="49" filename="../wtr/topics/topic.49" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="50" filename="../wtr/topics/topic.50" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="51" filename="../wtr/topics/topic.51" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="52" filename="../wtr/topics/topic.52" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="53" filename="../wtr/topics/topic.53" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="54" filename="../wtr/topics/topic.54" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="55" filename="../wtr/topics/topic.55" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="56" filename="../wtr/topics/topic.56" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="57" filename="../wtr/topics/topic.57" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="58" filename="../wtr/topics/topic.58" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="59" filename="../wtr/topics/topic.59" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+        <topic id="60" filename="../wtr/topics/topic.60" qrelsFilename="../wtr/queries_qrels/rel_table_qrels.txt" />
+    </topics>
+    
+    <users>
+        <user configurationFile="../sims/users/fixeddepthuser3-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser5-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser20-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser30-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-random-gpt-rprob05nprob05.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-textAfter-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-textBefore-gpt-rprob10nprob00.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob09nprob03.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob08nprob03.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob07nprob03.xml" />
+        <user configurationFile="../sims/users/fixeddepthuser10-PageTitle-gpt-rprob06nprob03.xml" />
+    </users>
+
+	<searchInterface class="PyterrierWebSearchInterface">
+        <!--
+        This is the search interface that the simulated users will interact with
+        -->
+		<attribute name="index_dir" type="string" value="" is_argument="false" />
+	</searchInterface>
+	
+</simulationConfiguration>
