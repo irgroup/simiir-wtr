@@ -5,7 +5,7 @@ This repository accompanies our CIKM'23 short paper submission entitled "Simulat
 The code can be rerun to reproduce the experiments, but we also provide the generated resources like queries or simulated interaction logs in the subdirectories.
 
 ## Publication
-The author's version of the work can be found on the [arXiv](). Please cite the work as follows:
+The author's version of the work can be found on the [arXiv](https://arxiv.org/abs/2310.11931). Please cite the work as follows:
 ```
 @inproceedings{10.1145/3583780.3615187, 
     author = {Engelmann, Björn and Breuer, Timo and Schaer, Philipp}, 
